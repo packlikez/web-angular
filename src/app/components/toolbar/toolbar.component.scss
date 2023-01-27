@@ -1,0 +1,40 @@
+@import '../../../variables.scss';
+
+.container {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+
+  div {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.active-link {
+  background-color: $my-primary;
+}
+
+
+.drawer-container {
+  width: 100%;
+  height: 100%;
+}
+
+.mat-sidenav-container {
+  height: 100%;
+}
+
+.mat-sidenav {
+  width: 250px;
+}
+
+.mat-nav-list {
+  padding: 0;
+}
+
+.mat-list-item {
+  height: 48px;
+  width: 100%;
+}
+
